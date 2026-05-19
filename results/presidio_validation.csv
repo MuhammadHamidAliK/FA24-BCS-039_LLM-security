@@ -1,0 +1,5 @@
+entity_type,example,expected,detected,confidence
+CNIC,My CNIC is 35202-1234567-1,CNIC,CNIC,>=0.45
+STUDENT_ID,student ID FA21BCS-123,STUDENT_ID,STUDENT_ID,>=0.45
+EMAIL_ADDRESS,email ali.khan@example.com,EMAIL_ADDRESS,EMAIL_ADDRESS,>=0.5
+API_KEY,api_key=sk-abcdefghijklmnopqrstuvwxyz123456,API_KEY,API_KEY,>=0.4

@@ -1,0 +1,21 @@
+weights:
+  pii: 0.15
+  secret: 0.20
+thresholds:
+  rule_block: 0.55
+  semantic_block: 0.72
+  final_block: 0.85
+semantic:
+  model: sentence-transformers/paraphrase-xlm-r-multilingual-v1
+  block_similarity: 0.72
+presidio:
+  entity_thresholds:
+    EMAIL_ADDRESS: 0.5
+    PHONE_NUMBER: 0.55
+    CNIC: 0.45
+    STUDENT_ID: 0.45
+    API_KEY: 0.4
+  context_boost: 0.25
+  composite_boost: 0.15
+audit:
+  log_path: results/audit.log

@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+results/audit.log
+results/evaluation_results.csv
+results/metrics_summary.json

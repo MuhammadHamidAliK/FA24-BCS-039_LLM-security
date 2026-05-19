@@ -1,0 +1,8 @@
+from langdetect import detect, LangDetectException
+
+
+def detect_language(text: str) -> str:
+    try:
+        return detect(text)
+    except LangDetectException:
+        return "unknown"
